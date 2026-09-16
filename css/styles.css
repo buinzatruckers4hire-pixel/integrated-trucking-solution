@@ -52,7 +52,7 @@ h1, h2, h3 {
 
 /* ——— Shared topbar ——— */
 .topbar {
-  background: rgba(0, 32, 72, 0.92);
+  background: rgba(22, 14, 18, 0.92);
   backdrop-filter: blur(14px);
   color: #fff;
   position: sticky;
@@ -171,7 +171,8 @@ body.landing {
   object-fit: cover;
   object-position: center center;
   transform: scale(1.06);
-  animation: hero ken 18s ease-in-out infinite alternate;
+  filter: saturate(0.78) sepia(0.28) hue-rotate(-18deg) contrast(1.05) brightness(0.9);
+  animation: heroKen 18s ease-in-out infinite alternate;
 }
 
 @keyframes heroKen {
@@ -183,8 +184,8 @@ body.landing {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(105deg, rgba(18, 14, 16, .86) 0%, rgba(40, 18, 28, .58) 52%, rgba(94, 20, 41, .48) 100%),
-    linear-gradient(to top, rgba(12, 10, 12, .78) 0%, transparent 48%);
+    linear-gradient(108deg, rgba(22, 12, 16, .9) 0%, rgba(55, 18, 30, .62) 55%, rgba(110, 28, 48, .5) 100%),
+    linear-gradient(to top, rgba(16, 10, 12, .82) 0%, transparent 50%);
   z-index: 1;
 }
 
@@ -382,7 +383,7 @@ body.landing {
 }
 
 .promise-panel {
-  background: var(--navy);
+  background: #1C1218;
   color: #fff;
   padding: 36px 32px;
   border-radius: 20px;
@@ -399,8 +400,8 @@ body.landing {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(500px 280px at 90% 0%, rgba(139, 30, 63, .45), transparent 60%),
-    linear-gradient(160deg, #002048, #023B6D 70%);
+    radial-gradient(500px 280px at 90% 0%, rgba(139, 30, 63, .5), transparent 60%),
+    linear-gradient(160deg, #1C1218, #3A1828 70%);
   z-index: 0;
 }
 
@@ -779,7 +780,7 @@ details.faq p { padding: 0 0 16px; color: var(--ink-soft); font-size: 15px; }
 .btn:hover { background: var(--burgundy-deep); transform: translateY(-1px); }
 
 footer.site {
-  background: var(--navy);
+  background: #141014;
   color: #9aa3ad;
   padding: 28px 0 40px;
   font-size: 13px;

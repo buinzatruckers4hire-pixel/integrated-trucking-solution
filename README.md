@@ -1,23 +1,26 @@
-# Integrated Trucking Solution — Driver Funnel
+# Integrated Trucking Solution — Driver Site
 
-Static HTML driver pre-approval funnel modeled after [drivers.opentruckingjobs.com](https://drivers.opentruckingjobs.com).
+Static HTML site for CDL-A driver recruiting.
 
 ## Pages
 
-- `index.html` — landing + application form
-- `thank-you.html` — post-submit confirmation
+1. `index.html` — polished landing page
+2. `apply.html` — pre-approval funnel (form)
+3. `thank-you.html` — post-submit confirmation
 
-## Brand
+## Brand colors
 
-| Token | Hex |
-| --- | --- |
-| Primary Blue | `#156BAF` |
-| Deep Navy | `#002048` |
-| Secondary Navy | `#023B6D` |
-| Silver Gray | `#6C7174` |
-| White | `#FFFFFF` |
+| Token | Hex | Use |
+| --- | --- | --- |
+| Deep Navy | `#002048` | Text, dark surfaces |
+| Secondary Navy | `#023B6D` | Supporting dark tones |
+| Primary Blue | `#156BAF` | Sparingly (links / accents) |
+| Burgundy | `#8B1E3F` | Buttons, tabs, CTAs |
+| Silver Gray | `#6C7174` | Secondary text |
+| Page background | `#EBEEF1` | Cool silver-stone base |
+| White | `#FFFFFF` | Cards / contrast |
 
-Logo: `imgs/logo.png`
+Logo: `imgs/logo.png` · Hero photo: `imgs/hero-truck.jpg`
 
 ## Contact
 
@@ -26,10 +29,8 @@ Logo: `imgs/logo.png`
 
 ## Form delivery
 
-Applications POST to FormSubmit and email `allan@integratedtruckingsolution.com`.
-On first live submit, FormSubmit will send a one-time confirmation email to activate the inbox.
-
-After deploy, open `index.html` and confirm the hidden `_next` field resolves to your live `thank-you.html` URL (the script sets this automatically).
+Applications on `apply.html` POST to FormSubmit and email the admin inbox.
+First live submit requires FormSubmit’s one-time confirmation email.
 
 ## Local preview
 
@@ -37,4 +38,4 @@ After deploy, open `index.html` and confirm the hidden `_next` field resolves to
 python3 -m http.server 8080
 ```
 
-Then open `http://localhost:8080`.
+Open `http://localhost:8080`.

@@ -12,19 +12,19 @@
   <style>
     :root {
       --ink: #002048;
-      --brand: #156BAF;
-      --brand-deep: #023B6D;
       --navy: #002048;
+      --navy-mid: #023B6D;
+      --burgundy: #8B1E3F;
+      --burgundy-deep: #5E1429;
       --silver: #6C7174;
-      --highlight: #4BA3D9;
-      --ok: #16a34a;
+      --highlight: #F2C4D0;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: "DM Sans", system-ui, -apple-system, sans-serif;
       background:
-        radial-gradient(900px 500px at 80% -10%, rgba(21,107,175,.45), transparent 60%),
-        linear-gradient(160deg, #002048 0%, #023B6D 50%, #156BAF 100%);
+        radial-gradient(900px 500px at 80% -10%, rgba(139,30,63,.4), transparent 60%),
+        linear-gradient(160deg, #00152C 0%, #002048 45%, #5E1429 100%);
       color: #fff;
       min-height: 100vh;
       -webkit-font-smoothing: antialiased;
@@ -72,7 +72,7 @@
     .step { display: grid; grid-template-columns: 36px 1fr; gap: 12px; align-items: start; }
     .n {
       width: 36px; height: 36px; border-radius: 10px;
-      background: var(--brand); color: #fff;
+      background: var(--burgundy); color: #fff;
       font-weight: 800; display: grid; place-items: center;
       font-family: "Barlow Condensed", sans-serif;
     }
@@ -81,7 +81,7 @@
     .step h3 { font-size: 16px; margin-bottom: 2px; }
     .step p { font-size: 14px; color: #475569; }
     .tip {
-      background: rgba(21,107,175,.22);
+      background: rgba(139,30,63,.22);
       border: 1px solid rgba(255,255,255,.28);
       border-radius: 16px;
       padding: 18px 20px;
@@ -94,13 +94,13 @@
     .btn {
       display: inline-block;
       background: #fff;
-      color: var(--brand-deep);
+      color: var(--burgundy-deep);
       font-weight: 800;
       padding: 14px 22px;
       border-radius: 12px;
       font-size: 15px;
     }
-    .btn.primary { background: var(--brand); color: #fff; }
+    .btn.primary { background: var(--burgundy); color: #fff; }
     .btn.ghost {
       background: transparent;
       color: #fff;
@@ -112,7 +112,7 @@
       font-size: 13px;
       color: rgba(255,255,255,.55);
     }
-    footer a { color: #93c5e8; text-decoration: underline; }
+    footer a { color: #f2c4d0; text-decoration: underline; }
     @media (max-width: 520px) {
       .actions { flex-direction: column; }
       .btn { text-align: center; }

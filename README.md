@@ -12,13 +12,12 @@ Static HTML site for CDL-A driver recruiting.
 
 | Token | Hex | Use |
 | --- | --- | --- |
-| Deep Navy | `#002048` | Text, dark surfaces |
-| Secondary Navy | `#023B6D` | Supporting dark tones |
-| Primary Blue | `#156BAF` | Sparingly (links / accents) |
-| Burgundy | `#8B1E3F` | Buttons, tabs, CTAs |
-| Silver Gray | `#6C7174` | Secondary text |
-| Page background | `#EBEEF1` | Cool silver-stone base |
-| White | `#FFFFFF` | Cards / contrast |
+| White | `#FFFFFF` | Page background |
+| Silver Gray | `#6C7174` | Menu bar / secondary text |
+| Deep Navy | `#002048` | Headings / structure |
+| Secondary Navy | `#023B6D` | Supporting accents |
+| Primary Blue | `#156BAF` | Sparingly |
+| Burgundy | `#8B1E3F` | Buttons only |
 
 Logo: `imgs/logo.png` · Hero photo: `imgs/hero-truck.jpg`
 

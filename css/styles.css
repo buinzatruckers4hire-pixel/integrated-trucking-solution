@@ -183,8 +183,8 @@ body.landing {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(105deg, rgba(0, 20, 40, .88) 0%, rgba(0, 32, 72, .55) 48%, rgba(94, 20, 41, .42) 100%),
-    linear-gradient(to top, rgba(0, 16, 32, .75) 0%, transparent 45%);
+    linear-gradient(105deg, rgba(18, 14, 16, .86) 0%, rgba(40, 18, 28, .58) 52%, rgba(94, 20, 41, .48) 100%),
+    linear-gradient(to top, rgba(12, 10, 12, .78) 0%, transparent 48%);
   z-index: 1;
 }
 
@@ -417,7 +417,7 @@ body.landing {
   padding: 96px 0;
   text-align: center;
   background:
-    linear-gradient(135deg, #002048 0%, #023B6D 55%, #5E1429 100%);
+    linear-gradient(135deg, #1A1218 0%, #3A1828 50%, #5E1429 100%);
   color: #fff;
 }
 
@@ -460,8 +460,8 @@ body.funnel {
   overflow: hidden;
   padding: 48px 0 72px;
   background:
-    radial-gradient(900px 480px at 90% -20%, rgba(139, 30, 63, .35), transparent 55%),
-    linear-gradient(135deg, #00152C 0%, #002048 45%, #1A2030 100%);
+    radial-gradient(900px 480px at 90% -20%, rgba(139, 30, 63, .4), transparent 55%),
+    linear-gradient(135deg, #141014 0%, #1C1520 42%, #3A1828 100%);
 }
 
 .funnel-hero::before {
@@ -750,8 +750,8 @@ details.faq p { padding: 0 0 16px; color: var(--ink-soft); font-size: 15px; }
 
 .bottom-cta {
   background:
-    radial-gradient(800px 400px at 50% -20%, rgba(139, 30, 63, .35), transparent 60%),
-    linear-gradient(135deg, #00152C, #002048 50%, #5E1429);
+    radial-gradient(800px 400px at 50% -20%, rgba(139, 30, 63, .4), transparent 60%),
+    linear-gradient(135deg, #141014, #2A1520 50%, #5E1429);
   color: #fff;
   padding: 64px 0;
   text-align: center;
